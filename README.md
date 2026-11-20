@@ -175,7 +175,7 @@ Fixed versions come from the vendor advisory. Update before opening untrusted co
 - [sandbox-runtime](https://github.com/anthropics/sandbox-runtime) - Filesystem and network restrictions for any process, without a container.
 - [claude-code-devcontainer](https://github.com/trailofbits/claude-code-devcontainer) - Isolated development container for running Claude Code on untrusted code.
 - [container-use](https://github.com/dagger/container-use) - Gives each coding agent its own container and Git branch.
-- [stillsuit](https://github.com/nukoe-labs/stillsuit) - Runs Claude Code, Codex or any command in a container whose only exit is an allowlist proxy, with API keys injected by the proxy and every blocked connection named with its process. New, by the maintainers of this list.
+- [closedbox](https://github.com/nukoe-labs/closedbox) - Runs Claude Code, Codex or any command in a closed box: it sees only the project, reaches only approved websites, never sees the API keys, and names the process behind every blocked connection. New, by the maintainers of this list.
 
 ### CI and Supply Chain
 
